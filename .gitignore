@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+*.idea/
+
+# Env files
+.env
+.env.local
+
+# Project notes
+what to build.txt
+
+# Vite boilerplate assets
+frontend/src/assets/react.svg
+frontend/src/assets/vite.svg
+frontend/src/assets/hero.png
