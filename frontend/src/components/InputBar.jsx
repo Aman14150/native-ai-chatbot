@@ -1,11 +1,10 @@
-import { useState, useRef, useEffect } from "react";
+ï»¿import { useState, useRef, useEffect } from "react";
 import "./InputBar.css";
 
 export default function InputBar({ onSend, onStop, disabled }) {
   const [text, setText] = useState("");
   const textareaRef = useRef(null);
 
-  // Auto-resize textarea
   useEffect(() => {
     const el = textareaRef.current;
     if (!el) return;
@@ -36,7 +35,7 @@ export default function InputBar({ onSend, onStop, disabled }) {
           value={text}
           onChange={(e) => setText(e.target.value)}
           onKeyDown={handleKeyDown}
-          placeholder="Message your local AI… (Enter to send)"
+          placeholder="Message your local AI... (Enter to send)"
           rows={1}
           disabled={disabled}
         />
@@ -53,7 +52,7 @@ export default function InputBar({ onSend, onStop, disabled }) {
           </button>
         )}
       </form>
-      <p className="input-hint">Shift+Enter for new line · Running locally on your machine</p>
+      <p className="input-hint">Shift+Enter for new line - Running locally on your machine</p>
     </div>
   );
 }

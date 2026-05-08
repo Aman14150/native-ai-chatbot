@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+ï»¿import { useEffect, useRef } from "react";
 import MessageBubble from "./MessageBubble";
 import "./ChatWindow.css";
 
@@ -26,7 +26,7 @@ export default function ChatWindow({ messages, isStreaming, onSuggestion }) {
             </svg>
           </div>
           <h2>How can I help you?</h2>
-          <p>Ask me anything — I run entirely on your machine. No internet required.</p>
+          <p>Ask me anything - I run entirely on your machine. No internet required.</p>
           <div className="empty-suggestions">
             {SUGGESTIONS.map((s) => (
               <button key={s} className="suggestion-chip" onClick={() => onSuggestion?.(s)}>
