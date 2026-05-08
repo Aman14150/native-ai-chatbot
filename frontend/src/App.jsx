@@ -11,13 +11,14 @@ export default function App() {
       <header className="app-header">
         <div className="app-header-left">
           <div className="app-logo">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2z"/>
-              <path d="M12 8v4l3 3"/>
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/>
+              <circle cx="12" cy="12" r="10"/>
+              <line x1="12" y1="17" x2="12.01" y2="17"/>
             </svg>
           </div>
           <div>
-            <h1>Local AI Chat</h1>
+            <h1>Native Chat AI</h1>
             <span className="model-badge">
               <span className="status-dot" />
               Llama 3.2 · Offline
