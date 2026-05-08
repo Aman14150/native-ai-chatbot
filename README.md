@@ -1,8 +1,10 @@
-# Local AI Chat
+# native-ai-chatbot
 
-A fully offline AI chat application — no API keys, no cloud, no data leaving your machine.
+A fully offline AI chatbot powered by Ollama & Llama 3.2 — no API keys, no cloud, runs entirely on your machine.
 
 **Stack:** FastAPI · Ollama · Llama 3.2 · React 18 · Vite
+
+🌐 **Live UI Demo:** [aman14150.github.io/native-ai-chatbot](https://Aman14150.github.io/native-ai-chatbot) *(chat requires Ollama running locally)*
 
 ## Features
 
