@@ -25,3 +25,11 @@ Thumbs.db
 # Env files
 .env
 .env.local
+
+# Project notes
+what to build.txt
+
+# Vite boilerplate assets
+frontend/src/assets/react.svg
+frontend/src/assets/vite.svg
+frontend/src/assets/hero.png
