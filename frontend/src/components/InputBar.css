@@ -1,0 +1,103 @@
+.input-bar-wrapper {
+  padding: 10px 16px 14px;
+  border-top: 1px solid #1e293b;
+  background: #0f172a;
+}
+
+.input-bar {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  background: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 14px;
+  padding: 8px 8px 8px 14px;
+  transition: border-color 0.15s;
+}
+
+.input-bar:focus-within {
+  border-color: #3b82f6;
+}
+
+.input-textarea {
+  flex: 1;
+  background: transparent;
+  color: #e2e8f0;
+  border: none;
+  padding: 4px 0;
+  font-size: 0.95rem;
+  resize: none;
+  outline: none;
+  font-family: inherit;
+  line-height: 1.5;
+  overflow-y: hidden;
+  min-height: 28px;
+}
+
+.input-textarea::placeholder {
+  color: #475569;
+}
+
+.input-textarea:disabled {
+  opacity: 0.6;
+}
+
+.send-btn {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.send-btn:hover:not(:disabled) {
+  background: #2563eb;
+  transform: scale(1.05);
+}
+
+.send-btn:disabled {
+  background: #1e3a5f;
+  color: #475569;
+  cursor: not-allowed;
+}
+
+.stop-btn {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  background: #ef4444;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.stop-btn:hover {
+  background: #dc2626;
+  transform: scale(1.05);
+}
+
+.stop-icon {
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.input-hint {
+  margin: 6px 4px 0;
+  font-size: 0.7rem;
+  color: #334155;
+  text-align: center;
+}
